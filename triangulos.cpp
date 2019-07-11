@@ -92,8 +92,8 @@ int main()
 	REFLECT = (T[1]+T[2]);
 	
     int k = 13;
-    int num_epochs = 1000;
-	int meta_epochs = 40;
+    int num_epochs = 10000;
+	int meta_epochs = 30;
 	
 	std::cout << "k, num_epochs, meta_epochs\n";
     std::cout << k << ' ' << num_epochs << ' ' << meta_epochs << std::endl;
@@ -136,8 +136,8 @@ int main()
 				}
 			}
 		}
-		num_epochs *= 1.5;
-		num_epochs = std::min(num_epochs,2000000);
+		num_epochs *= 1.3;
+		num_epochs = std::min(num_epochs,1000000);
 	}
     
 
