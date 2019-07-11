@@ -1,0 +1,4 @@
+﻿/.vs
+.kdev*
+*.kdev4
+build*
